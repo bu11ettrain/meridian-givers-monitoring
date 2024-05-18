@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Meridian Givers Monitoring</title>
+        <title>GPU Givers Monitoring</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <div class="container">
-            <h1 class="title">Meridian Givers Monitoring</h1>
+            <h1 class="title">GPU Givers Monitoring</h1>
             <p class="byline">
                 Created with ChatGPT by
                 <a href="https://gusarich.com" target="_blank">Gusarich</a>
@@ -30,46 +30,36 @@
         </div>
         <script>
             window.givers = [
-                'EQBLLK9id6EtL84gttboddymooWsstvaRJFRsmxwCAxS2fKH',
-                'EQDsAYWv_V2WJ7WzIaCVA0b9Nf4BuaIuErJ5ABlxCs33Df3-',
-                'EQBTUF2vCChdK6OPWhAT_B5FpFdx4HaP6ZGkXEYBueF63xme',
-                'EQDI6x0r0pcsbNYYgfuMLFyruIHz5zRs3N3biWtDS-TPes9-',
-                'EQB1MlFiSjb8gCW9i5pN-iFL-ho6O2r3vQwUWyTlMm0DR83q',
-                'EQCWdUMBIfMSL6Gcp9S5jMgHXoCy3tq15qCE2H4VlVHAG-W9',
-                'EQARwozValJS7k-bnSywfbBPhjIuPX1JUoX5FOeSW9nFcvhv',
-                'EQCnYgG-N2TiVYfE9G1Mlz5y7iETHZ9lCuHog_pmZNEAxL4W',
-                'EQCFQZ3CS5xxK5VYXXA39btm4JPkh2wSpII844DfSA6tRQbf',
-                'EQCX75hJg7tw2RTwo_mdvJKg6wB9NT5VvSy0ITHI1cdAgCDZ',
-                'EQDCW5gTc6wBzNWLMp3rgc5dBXP9mOgSwNJGMj-Ok1enGSNV',
-                'EQDq6bNLH-dWPJUl7WwjV_6K9gmu-cBGR6zYXCSKwetomaer',
-                'EQDMcJl4ntgzC9rlTSvxAzlTHFGFUhq8CJkt2k_dpe5t5fdl',
-                'EQAfEHkM6goE4nBy3StDVvPPIYAEvCm6fMcH1uSqVrFOC3zG',
-                'EQDAc11oMAT1UKOD6wqo6pE4ll_iQKt69aj5ly7tY2pQdkiD',
-                'EQD0SK2wZTCiWuuqinzXuEzrgNZ4rn7I1t72rvG8FMMFkRST',
-                'EQCTp-2GQFWge04pAozfGBVQubY7s-d5kiYnMA76EAtK6oX4',
-                'EQBLuB8RN3QZlnDzp3il67vdoYw6NP00igggSsGdwqZz9ni3',
-                'EQAjXF0tyaodu0DEmVGUBNe_LSoj9GT0n3ktgWbIi4a03tuB',
-                'EQAZ1XjtrxSfmDEEQo4axo24ttcUr5MVEFxhcHSgRk8seobo',
-                'EQA_AFgnTqLSuVQGaxGyZYmQceD8_rUSHHvdPujNBFdluL9F',
-                'EQDgjQnT1YJhGvLk38IDUodwPa3HLJ38g703SgFpRp2kW8FV',
-                'EQAApt_NS7LegD6gbn3RHuTViCkpmnK4DiKSr5ACDmLmlMsd',
-                'EQD82Nmdun4-pA0K1jKdCVRwvV9SGVZrhQneLdARp7iKBKRp',
-                'EQBl2-TPP9o9TSFjCQ4UsmJepU2hyrWFRjcDV1rd_Qoi-2KB',
-                'EQA0-AR0AY2a6daW1wBGQkDcIaDStfbzc6WHeqxRrmY5lxlT',
-                'EQDJn4m1ZYfHu2et0CCRPCGsEa6OlY6LtCDCPvXC63IXBzbM',
-                'EQCfX6neH7UfiychTWXmWfJxTxJ6sbdOoBJesyHz2RyCNYfq',
-                'EQAh0X4RydrmGRO0vDvDkWi_ymIO0a5HlxzOp_-fuhgUea-m',
-                'EQCUoxbuxROf2GKmLJPvRjvd9JYTwXv5-yXA62FMN6X-KGsK',
-                'EQAr5cz1Ovu7PJy4s8C9akci2L55L5HdnNdFVNenocLmfclE',
-                'EQAAxDtuPj4Af0dFQ0ycUCsVMO_adL5BaDNiM2gk-Em1XSTj',
-                'EQClSB5fNMyJ3uy-uJzE7IPPqkV9AbiNnC8wadZf3XA16MjX',
-                'EQB109HtTqFmU6_-M6XaM3jykK5erDz3p49pCiZgAJHxjCkb',
-                'EQBxfbj4mPtRwkEWduy7wOb6VI8bELVvJBaddlxP_S4J87D9',
-                'EQAtGsRfQNulCpifX85tFNVF7BJgF3Sz2zTFfQ8zSZZ00uGT',
-                'EQDC733GMW1Z9Svx25zSxyTpwrAiH7pAjAS8ZcN-Fdj2ICYu',
-                'EQDx7zJjx42ll1aPNNzAI0gmqKs5NwCMjyxFMoc7TUVZ3oGV',
-                'EQB6SQ75l7_4xPPqD-MhytZUuNLSiObGpv27f1bPznAG-36k',
-                'EQC0wy0bM9EkLAJAKOzfVWlMuxJcuqDhUQKNii8b1mI-rskf',
+                'EQCtth94ZGUMCNozUDPW8dOZ6-9pXXGe7wLv0pdwb7-RJ70s',
+                'EQAnnboC6-qjymZkGowo-B4_Ockafmq9XTnDqyO7qPiIgdB6',
+                'EQBJUt01Mv2FFTUwavsTHHv_4EHVz5E4Q-0wRowTr_e5lPoY',
+                'EQBLWmcbT3PLwHBUbgyoPINk0vyZ5jOZYDgMSTR8E00oa9a4',
+                'EQC3MfCLkvDSBWoRO_PKP1HbV60Xj34ZLxdMf_fjiPQZkW1i',
+                'EQBHuE9-Ulm1gkFCO-FhbYhZuQ7HcvP46dr4HckiK6HQTzMK',
+                'EQBdsR4nJbBE3IPBhghrayZTHIiPT6b_WZNmipoSXv3Dgxy1',
+                'EQCJfKA1I7mvuWmVRLDPtWXe808XNuz2rMtE2KqspDXIriNx',
+                'EQC1jvjc7A0IbZXEOY4U3m5jqAtNWYt7XOGNXR1e3WCv_1ky',
+                'EQBMsmRGXaR5T5TVLFnoMywetN-UfbaiB9NJUgqk2tAm-gSB', 
+                'EQABlpocRxDoECjBtorHZlsgM2VgZQ1UKKgEFKnjeJVKxP-e',
+                'EQBo4OMBbxgWpi5UWSKmwakunaSE9Tbd2xgLks11nEztixtZ',
+                'EQChDqooVTDnsrM1B_GA9ZeOc9pu2GsbWKYS9kC1kJ_k4ZK5',
+                'EQCxZ8ukAahVKy3Dg27IDS0nV05HJWkrd-7Wi-JfC2E6NAj5',
+                'EQB6LBRHsstRCndcD5ZpfgxcEvK91tIPuFbGJdECgepBbYaz',
+                'EQDpaCRCX4pGJTfW5JCmR6XEAkyiy5HvV0PW6D3pilab9tP1',
+                'EQCDs928jTG3HlPp_RXoL8T9frOjnXog_aTyUmjej9mX6G3Q',
+                'EQArQu09ulZPDpGUzkgArORvJskCVsFuCcj_OAUF7Pqv27Q8',
+                'EQB50X6c1LWseWBe28HrG74Iuq7W1DfVxIRkFKNAEohW1QHh',
+                'EQBc5-jYQYylQCvjRhwKC7lm8B10fLBrri1mOWUSPHoaB_1o',
+                'EQBUmN2uinHEFjBymG3SV010oeDABQ_8R-z1PRuV1YLRImL9',
+                'EQC51U_4w6ItbeHvQs0RhuT3cwsytrDaJbG55BU-ZAzUfB4n',
+                'EQBT-Dbj7JkZltw-IVLbep0NTgaEGgSMUMIp4km8mYkPV6I8',
+                'EQD7GQw_BEo9KX7t1WpIa42KeQ3h8f4hVejip453l4qVLdNk',
+                'EQDEjyEOuJU5UggCaW-aN7_NxPF-ZULzcmCEY1AwEmzg5yuy',
+                'EQD5Viou03CU_oQKsyuneGv4Q2scxeLw-pfY4rIoa8sLlYtI',
+                'EQAWSBd3IiRJQiTWr2qjYNgUFCA0u6zSs5H6S3ghOeMp0s-r',
+                'EQCklqxLokjCHkujRzAZMlaGM4JSUHS3IpUhqQ6y8mzD2DiL',
+                'EQAD7ylSr3X0TVUrjtpaaLhEwZYi9ucCAjdhjANF4SLpFcrr',
+                'EQAdugQfgubyVOtzcfn-ca7WEyepnp7BYP5oS0w5A15zIH78'
             ].reverse();
             window.loadTime = Date.now();
             window.giversInitialBalances = Array(40).fill(null);
@@ -78,7 +68,7 @@
                 4200000000000000,
             ];
             window.solutionRewards = [
-                100000000000, 1000000000000, 10000000000000, 100000000000000,
+                1000000000000, 10000000000000, 100000000000000,
             ];
 
             function createProgressBar(category, index, maxBalance) {
@@ -113,7 +103,7 @@
             }
 
             function addProgressBars() {
-                var categories = ['Extra Small', 'Small', 'Medium', 'Large'];
+                var categories = ['Small', 'Medium', 'Large'];
                 var container = document.querySelector('.progress-bars');
                 let totalI = 1;
                 categories.forEach((category) => {
